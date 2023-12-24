@@ -19,7 +19,7 @@ function test2(){
     setTimeout(test1,time[count])
 }
 test2();
-
+    /* 一応表示されるが、これだと3回目の何もないのにsetTimeoutをしようとしているためif文かなにかで分岐しないと3回目にエラーがでる */
 
 // これから打つキー、すでに打ったキーを表示、 ... は適宜変更してください。
 const disp = ()=>{
